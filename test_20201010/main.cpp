@@ -6,6 +6,7 @@
 using namespace std;
 
 int main(){
+//
     cout<<"hello, clion - github"<<endl;
 
     return 0;
