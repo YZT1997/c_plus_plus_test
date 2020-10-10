@@ -1,3 +1,0 @@
-E:/GithubCode/c_plus_plus_test/test_20201010/cmake-build-debug/CMakeFiles/test_20201010.dir
-E:/GithubCode/c_plus_plus_test/test_20201010/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/GithubCode/c_plus_plus_test/test_20201010/cmake-build-debug/CMakeFiles/rebuild_cache.dir
