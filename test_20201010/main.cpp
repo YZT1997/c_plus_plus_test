@@ -8,6 +8,7 @@ using namespace std;
 int main(){
 //
     cout<<"hello, clion - github"<<endl;
+    cout<<"test in PC in robolab"<<endl;
 
     return 0;
 }
