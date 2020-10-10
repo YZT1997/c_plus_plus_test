@@ -142,32 +142,59 @@ test_laptop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/build
 .PHONY : test_laptop/fast
 
-test.obj: test.cpp.obj
+8_1.obj: 8_1.cpp.obj
 
-.PHONY : test.obj
+.PHONY : 8_1.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+8_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_1.cpp.obj
+.PHONY : 8_1.cpp.obj
 
-test.i: test.cpp.i
+8_1.i: 8_1.cpp.i
 
-.PHONY : test.i
+.PHONY : 8_1.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.i
-.PHONY : test.cpp.i
+8_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_1.cpp.i
+.PHONY : 8_1.cpp.i
 
-test.s: test.cpp.s
+8_1.s: 8_1.cpp.s
 
-.PHONY : test.s
+.PHONY : 8_1.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.s
-.PHONY : test.cpp.s
+8_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_1.cpp.s
+.PHONY : 8_1.cpp.s
+
+8_2.obj: 8_2.cpp.obj
+
+.PHONY : 8_2.obj
+
+# target to build an object file
+8_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_2.cpp.obj
+.PHONY : 8_2.cpp.obj
+
+8_2.i: 8_2.cpp.i
+
+.PHONY : 8_2.i
+
+# target to preprocess a source file
+8_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_2.cpp.i
+.PHONY : 8_2.cpp.i
+
+8_2.s: 8_2.cpp.s
+
+.PHONY : 8_2.s
+
+# target to generate assembly for a file
+8_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_2.cpp.s
+.PHONY : 8_2.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_laptop
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... 8_1.obj
+	@echo ... 8_1.i
+	@echo ... 8_1.s
+	@echo ... 8_2.obj
+	@echo ... 8_2.i
+	@echo ... 8_2.s
 .PHONY : help
 
 
