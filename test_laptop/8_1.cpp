@@ -7,8 +7,8 @@ using namespace std;
 class Complex{
 public:
     Complex(double r = 0.0, double i = 0.0) : real(r), imag(i){}
-    Complex operator+ (const Complex &c2) const;
-    Complex operator- (const Complex &c2) const;
+    Complex operator+ (const Complex &c) const;
+    Complex operator- (const Complex &c) const;
     void display() const;
 
 private:
@@ -16,12 +16,12 @@ private:
     double imag;
 };
 
-Complex Complex::operator+(const Complex &c2) const {
-    return Complex(real + c2.real, imag+c2.imag);
+Complex Complex::operator+(const Complex &c) const {
+    return Complex(real + c.real, imag+c.imag);
 }
 
-Complex Complex::operator-(const Complex &c2) const {
-    return Complex(real - c2.real, imag - c2.imag);
+Complex Complex::operator-(const Complex &c) const {
+    return Complex(real - c.real, imag - c.imag);
 }
 
 void Complex::display() const {
@@ -29,14 +29,14 @@ void Complex::display() const {
 }
 
 int main(){
-    Complex c1(10, 200), c2(-10, 19), c3;
+    Complex c1(10, 200), c2(0, 19), c3;
     cout<<"c1 = ";
     c1.display();
     cout<<"c2 = ";
     c2.display();
 
-    cout<<"c1 - c2 = ";
-    c3 = c1 - c2;
+    cout<<"c1 + c2 = ";
+    c3 = c1 + c2;
     c3.display();
 
     return 0;
