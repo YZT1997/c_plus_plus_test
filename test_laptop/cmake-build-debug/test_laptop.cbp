@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="E:/GithubCode/c_plus_plus_test/test_laptop/."/>
+					<Add directory="E:/GithubCode/c_plus_plus_test/test_laptop/./include"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -47,6 +48,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="E:/GithubCode/c_plus_plus_test/test_laptop/."/>
+					<Add directory="E:/GithubCode/c_plus_plus_test/test_laptop/./include"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -82,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/9_1.cpp">
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/9_4.cpp">
 			<Option target="test_laptop"/>
 		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/CMakeLists.txt">

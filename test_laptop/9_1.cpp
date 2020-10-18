@@ -2,6 +2,7 @@
 // Created by yang zhengtao on 2020/10/18.
 //
 #include "iostream"
+#include "Array.h"
 using namespace std;
 
 template <class T>

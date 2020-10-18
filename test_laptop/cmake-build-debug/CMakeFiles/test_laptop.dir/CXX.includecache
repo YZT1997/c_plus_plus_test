@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/8_1.cpp
+../include/Array.h
+cassert
+../include/cassert
+
+E:/GithubCode/c_plus_plus_test/test_laptop/9_4.cpp
 iostream
 E:/GithubCode/c_plus_plus_test/test_laptop/iostream
+iomanip
+E:/GithubCode/c_plus_plus_test/test_laptop/iomanip
+Array.h
+E:/GithubCode/c_plus_plus_test/test_laptop/Array.h
 

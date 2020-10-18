@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/GithubCode/c_plus_plus_test/test_laptop/9_1.cpp" "E:/GithubCode/c_plus_plus_test/test_laptop/cmake-build-debug/CMakeFiles/test_laptop.dir/9_1.cpp.obj"
+  "E:/GithubCode/c_plus_plus_test/test_laptop/9_4.cpp" "E:/GithubCode/c_plus_plus_test/test_laptop/cmake-build-debug/CMakeFiles/test_laptop.dir/9_4.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  ".././include"
   )
 
 # Targets to which this target links.
