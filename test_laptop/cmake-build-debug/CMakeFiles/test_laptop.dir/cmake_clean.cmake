@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_laptop.dir/9_4.cpp.obj"
+  "CMakeFiles/test_laptop.dir/9_7.cpp.obj"
+  "CMakeFiles/test_laptop.dir/LinkedList.cpp.obj"
   "libtest_laptop.dll.a"
   "test_laptop.exe"
   "test_laptop.exe.manifest"
