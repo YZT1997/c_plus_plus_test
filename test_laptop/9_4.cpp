@@ -14,10 +14,10 @@ int main(){
     cout<<"Enter a thresh value >= 2";
     cin>>n;
 
-    for (int i = 2; i < n; ++i) {
+    for (int i = 2; i <= n; ++i) {
         bool isPrime = true;
         for (int j = 0; j < count; ++j) {
-            if (a[j] % i == 0){
+            if (i % a[j] == 0){
                 isPrime = false;
                 break;
             }
@@ -27,23 +27,19 @@ int main(){
         if (isPrime){
             // if the space is full, double it
             if (count == a.getSize()){
-                a.resize(count + 1);
+                a.resize(count * 2);
             }
             a[count++] = i;
         }
     }
 
+    //change the value of array a
+
     // print the prime number
     for (int i = 0; i < count; ++i) {
-        cout<<setw(2)<<a[i];
+        cout<<setw(2)<<*(a+i);
     }
     cout<<endl;
-
-    //copy
-    Array<int> b(a);
-    for (int i = 0; i < b.getSize(); ++i) {
-        cout<<setw(2)<<b[i];
-    }
 
     return 0;
 }
