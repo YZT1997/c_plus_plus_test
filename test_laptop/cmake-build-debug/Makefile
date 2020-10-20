@@ -169,33 +169,6 @@ test_laptop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/9_7.cpp.s
 .PHONY : 9_7.cpp.s
 
-LinkedList.obj: LinkedList.cpp.obj
-
-.PHONY : LinkedList.obj
-
-# target to build an object file
-LinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/LinkedList.cpp.obj
-.PHONY : LinkedList.cpp.obj
-
-LinkedList.i: LinkedList.cpp.i
-
-.PHONY : LinkedList.i
-
-# target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
-
-LinkedList.s: LinkedList.cpp.s
-
-.PHONY : LinkedList.s
-
-# target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +181,6 @@ help:
 	@echo ... 9_7.obj
 	@echo ... 9_7.i
 	@echo ... 9_7.s
-	@echo ... LinkedList.obj
-	@echo ... LinkedList.i
-	@echo ... LinkedList.s
 .PHONY : help
 
 

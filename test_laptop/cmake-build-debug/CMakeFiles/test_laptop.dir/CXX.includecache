@@ -7,20 +7,22 @@
 #IncludeRegexTransform: 
 
 ../include/LinkedList.h
+iostream
+../include/iostream
 Node.h
 ../include/Node.h
 
 ../include/Node.h
+
+../include/hello.h
+iostream
+../include/iostream
 
 E:/GithubCode/c_plus_plus_test/test_laptop/9_7.cpp
 iostream
 E:/GithubCode/c_plus_plus_test/test_laptop/iostream
 LinkedList.h
 E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.h
-
-E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.cpp
-LinkedList.h
-E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.h
-iostream
-E:/GithubCode/c_plus_plus_test/test_laptop/iostream
+hello.h
+E:/GithubCode/c_plus_plus_test/test_laptop/hello.h
 

@@ -6,12 +6,14 @@
 #define TEST_LAPTOP_NODE_H
 
 // class template
+
 template <class T>
 class Node{
-public:
-    Node<T> *next;      // ptr to the next node
 private:
+    Node<T> *next;      // ptr to the next node
+public:
     T data;             // data
+
     Node(const T &data, Node<T> *next = 0); // Constructor function
     void insertAfter(Node<T> *ptr);         // Insert a new same type node
     Node<T> *deleteAfter();
@@ -21,7 +23,7 @@ private:
 
 // Constructor function, init
 template <class T>
-Node<T>::Node(const T &data, Node<T> *next) {}
+Node<T>::Node(const T &data, Node<T> *next/* = 0*/) :data(data), next(next){}
 
 // Return the ptr of next node
 template <class T>

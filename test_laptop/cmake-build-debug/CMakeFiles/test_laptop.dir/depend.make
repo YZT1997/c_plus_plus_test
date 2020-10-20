@@ -3,9 +3,6 @@
 
 CMakeFiles/test_laptop.dir/9_7.cpp.obj: ../include/LinkedList.h
 CMakeFiles/test_laptop.dir/9_7.cpp.obj: ../include/Node.h
+CMakeFiles/test_laptop.dir/9_7.cpp.obj: ../include/hello.h
 CMakeFiles/test_laptop.dir/9_7.cpp.obj: ../9_7.cpp
-
-CMakeFiles/test_laptop.dir/LinkedList.cpp.obj: ../include/LinkedList.h
-CMakeFiles/test_laptop.dir/LinkedList.cpp.obj: ../include/Node.h
-CMakeFiles/test_laptop.dir/LinkedList.cpp.obj: ../LinkedList.cpp
 
