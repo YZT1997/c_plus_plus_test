@@ -2,6 +2,7 @@
 // Created by yang zhengtao on 2020/10/19.
 //
 #include "LinkedList.h"
+#include "iostream"
 
 // Get next node
 template <class T>
@@ -89,6 +90,18 @@ void LinkedList<T>::reset(int pos) {
     }
 }
 
+// Print items
+template <class T>
+void LinkedList<T>::print() {
+    reset();
+    while (!endOfList()){
+        std::cout<<data()<<" ";
+        next();
+    }
+    std::cout<<std::endl;
+    std::cout<<"size = "<<getSize()<<std::endl;
+}
+
 // Insert node at start
 template <class T>
 void LinkedList<T>::insertFront(const T &item) {
@@ -170,4 +183,35 @@ template <class T>
 LinkedList<T>::~LinkedList<T>() {
     clear();
     delete front;
+}
+
+// Copy constructor
+template <class T>
+void LinkedList<T>::copy(const LinkedList<T> &List) {
+    // clear();
+    List.reset();
+    for (int i = 0; i < List.size; ++i) {
+        insertRear(List.data());
+        List.next();
+    }
+}
+
+// Reload "="
+template <class T>
+LinkedList<T> &LinkedList<T>::operator=(const LinkedList<T> &List) {
+    clear();
+    front->next = nullptr;
+    copy(List);
+    std::cout<<"Call reloaded operator = "<<std::endl;
+    return *this;
+}
+
+// Copy constructor
+template <class T>
+LinkedList<T>::LinkedList(const LinkedList<T> &List){
+    size = 0;
+    front = rear= new Node<T>(0);
+    currPtr = prevPtr= front;
+    copy(List);
+    std::cout<<"Call copy constructor function"<<std::endl;
 }

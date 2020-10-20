@@ -38,6 +38,7 @@ public:
     void next();                            // Move the handle to next node
     bool endOfList() const;                 // whether the handle is in the end
     int currentPosition(void);              // Return the pos of handle
+    void print();                           // Print all items of list
 
     void insertFront(const T &item);        // Insert a node
     void insertRear(const T &item);         // Insert a node at end

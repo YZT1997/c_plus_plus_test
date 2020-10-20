@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-../include/Array.h
-cassert
-../include/cassert
+../include/LinkedList.h
+Node.h
+../include/Node.h
 
-E:/GithubCode/c_plus_plus_test/test_laptop/9_4.cpp
+../include/Node.h
+
+E:/GithubCode/c_plus_plus_test/test_laptop/9_7.cpp
 iostream
 E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-iomanip
-E:/GithubCode/c_plus_plus_test/test_laptop/iomanip
-Array.h
-E:/GithubCode/c_plus_plus_test/test_laptop/Array.h
+LinkedList.h
+E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.h
+
+E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.cpp
+LinkedList.h
+E:/GithubCode/c_plus_plus_test/test_laptop/LinkedList.h
+iostream
+E:/GithubCode/c_plus_plus_test/test_laptop/iostream
 
