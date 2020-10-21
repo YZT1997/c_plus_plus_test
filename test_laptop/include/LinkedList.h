@@ -55,6 +55,7 @@ public:
 
     // Delete list
     void clear();
+
 };
 
 // Class implementation

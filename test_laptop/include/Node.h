@@ -6,13 +6,13 @@
 #define TEST_LAPTOP_NODE_H
 
 // class template
+template<class T> class LinkedList;
 
 template <class T>
 class Node{
 private:
-//    Node<T> *next;      // ptr to the next node
+    Node<T> *next;      // ptr to the next node
 public:
-    Node<T> *next;      // ptr to the next node， Idiot!!!!
     T data;             // data
 
     Node(const T &data, Node<T> *next = 0); // Constructor function
@@ -20,6 +20,9 @@ public:
     Node<T> *deleteAfter();
     Node<T> *nextNode();
     const Node<T> *nextNode() const;        // Get the address of next node
+
+    friend class LinkedList<T>;             // Make LinkedList class as the friend class of node;
+
 };
 
 // Constructor function, init
