@@ -56,6 +56,8 @@ public:
     // Delete list
     void clear();
 };
+
+// Class implementation
 // Get next node
 template <class T>
 Node<T> *LinkedList<T>::newNode(const T &item, Node<T> *ptrNext) {
@@ -159,7 +161,7 @@ template <class T>
 void LinkedList<T>::insertFront(const T &item) {
     prevPtr = currPtr;
     currPtr = newNode(item, front->nextNode());
-    front->next = currPtr;
+    front->next = currPtr;  // the next ptr of front ptr is currPtr;把currPtr的地址赋给front的后继节点
     if (rear == front){
         rear = currPtr;
     }
@@ -173,6 +175,7 @@ void LinkedList<T>::insertRear(const T &item) {
     currPtr = newNode(item, rear->nextNode());
     rear->next = currPtr;
     rear = currPtr;
+    size++;
 }
 
 // Insert node after current
@@ -180,7 +183,7 @@ template <class T>
 void LinkedList<T>::insertAfter(const T &item) {
     prevPtr = currPtr;
     Node<T> *tempPtr = newNode(item, currPtr->nextNode());
-    currPtr->next = tempPtr;
+    currPtr->next = tempPtr;  // Problem!
     if (currPtr == rear){
         rear = tempPtr;
     }

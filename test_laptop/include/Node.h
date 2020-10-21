@@ -10,8 +10,9 @@
 template <class T>
 class Node{
 private:
-    Node<T> *next;      // ptr to the next node
+//    Node<T> *next;      // ptr to the next node
 public:
+    Node<T> *next;      // ptr to the next node， Idiot!!!!
     T data;             // data
 
     Node(const T &data, Node<T> *next = 0); // Constructor function
@@ -37,7 +38,7 @@ const Node<T> *Node<T>::nextNode() const{
     return next;
 }
 
-// Insert a node p before current node
+// Insert a node p after current node
 template <class T>
 void Node<T>::insertAfter(Node<T> *ptr) {
     ptr->next = next;           // ptr points to the node after the next
