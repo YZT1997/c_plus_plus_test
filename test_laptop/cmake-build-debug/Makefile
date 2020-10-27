@@ -142,32 +142,32 @@ test_laptop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/build
 .PHONY : test_laptop/fast
 
-9_7.obj: 9_7.cpp.obj
+test.obj: test.cpp.obj
 
-.PHONY : 9_7.obj
+.PHONY : test.obj
 
 # target to build an object file
-9_7.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/9_7.cpp.obj
-.PHONY : 9_7.cpp.obj
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.obj
+.PHONY : test.cpp.obj
 
-9_7.i: 9_7.cpp.i
+test.i: test.cpp.i
 
-.PHONY : 9_7.i
+.PHONY : test.i
 
 # target to preprocess a source file
-9_7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/9_7.cpp.i
-.PHONY : 9_7.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-9_7.s: 9_7.cpp.s
+test.s: test.cpp.s
 
-.PHONY : 9_7.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-9_7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/9_7.cpp.s
-.PHONY : 9_7.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_laptop
-	@echo ... 9_7.obj
-	@echo ... 9_7.i
-	@echo ... 9_7.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
