@@ -6,19 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../include/Queue.h
-cassert
-../include/cassert
-
-../include/Stack.h
-cassert
-../include/cassert
-
-E:/GithubCode/c_plus_plus_test/test_laptop/test.cpp
-iostream
-E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-Stack.h
-E:/GithubCode/c_plus_plus_test/test_laptop/Stack.h
-Queue.h
-E:/GithubCode/c_plus_plus_test/test_laptop/Queue.h
-
