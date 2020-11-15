@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(. ./include)
 
-add_executable(test_laptop 10_6.cpp)
+add_executable(test_laptop 10_11.cpp)
