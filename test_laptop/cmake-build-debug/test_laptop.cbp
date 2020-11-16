@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/10_19.cpp">
-			<Option target="test_laptop"/>
-		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/10_21.cpp">
 			<Option target="test_laptop"/>
 		</Unit>
