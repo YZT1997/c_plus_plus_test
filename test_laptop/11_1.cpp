@@ -10,7 +10,7 @@ int main(){
     double values[] = {1.23, 35.36, 653.7, 4358.24};
     string names[] = {"Hello", "My", "Pleasure", "Last"};
     for (int i = 0; i < 4; ++i) {
-        cout<<setw(8)<<names[i]<<setw(10)<<values[i]<<endl;
+        cout<<setiosflags(ios_base::left)<<setw(8)<<names[i]<<resetiosflags(ios_base::left)<<setw(8)<<values[i]<<endl;
     }
     return 0;
 }

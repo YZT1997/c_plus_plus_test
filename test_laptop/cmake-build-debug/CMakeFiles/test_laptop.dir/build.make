@@ -76,28 +76,28 @@ include CMakeFiles/test_laptop.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_laptop.dir/flags.make
 
-CMakeFiles/test_laptop.dir/11_1.cpp.obj: CMakeFiles/test_laptop.dir/flags.make
-CMakeFiles/test_laptop.dir/11_1.cpp.obj: CMakeFiles/test_laptop.dir/includes_CXX.rsp
-CMakeFiles/test_laptop.dir/11_1.cpp.obj: ../11_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GithubCode\c_plus_plus_test\test_laptop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_laptop.dir/11_1.cpp.obj"
-	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_laptop.dir\11_1.cpp.obj -c E:\GithubCode\c_plus_plus_test\test_laptop\11_1.cpp
+CMakeFiles/test_laptop.dir/11_5.cpp.obj: CMakeFiles/test_laptop.dir/flags.make
+CMakeFiles/test_laptop.dir/11_5.cpp.obj: CMakeFiles/test_laptop.dir/includes_CXX.rsp
+CMakeFiles/test_laptop.dir/11_5.cpp.obj: ../11_5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GithubCode\c_plus_plus_test\test_laptop\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_laptop.dir/11_5.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test_laptop.dir\11_5.cpp.obj -c E:\GithubCode\c_plus_plus_test\test_laptop\11_5.cpp
 
-CMakeFiles/test_laptop.dir/11_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_laptop.dir/11_1.cpp.i"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GithubCode\c_plus_plus_test\test_laptop\11_1.cpp > CMakeFiles\test_laptop.dir\11_1.cpp.i
+CMakeFiles/test_laptop.dir/11_5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_laptop.dir/11_5.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GithubCode\c_plus_plus_test\test_laptop\11_5.cpp > CMakeFiles\test_laptop.dir\11_5.cpp.i
 
-CMakeFiles/test_laptop.dir/11_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_laptop.dir/11_1.cpp.s"
-	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GithubCode\c_plus_plus_test\test_laptop\11_1.cpp -o CMakeFiles\test_laptop.dir\11_1.cpp.s
+CMakeFiles/test_laptop.dir/11_5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_laptop.dir/11_5.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GithubCode\c_plus_plus_test\test_laptop\11_5.cpp -o CMakeFiles\test_laptop.dir\11_5.cpp.s
 
 # Object files for target test_laptop
 test_laptop_OBJECTS = \
-"CMakeFiles/test_laptop.dir/11_1.cpp.obj"
+"CMakeFiles/test_laptop.dir/11_5.cpp.obj"
 
 # External object files for target test_laptop
 test_laptop_EXTERNAL_OBJECTS =
 
-test_laptop.exe: CMakeFiles/test_laptop.dir/11_1.cpp.obj
+test_laptop.exe: CMakeFiles/test_laptop.dir/11_5.cpp.obj
 test_laptop.exe: CMakeFiles/test_laptop.dir/build.make
 test_laptop.exe: CMakeFiles/test_laptop.dir/linklibs.rsp
 test_laptop.exe: CMakeFiles/test_laptop.dir/objects1.rsp

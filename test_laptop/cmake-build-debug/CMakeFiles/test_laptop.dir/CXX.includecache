@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/11_1.cpp
-iostream
-E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-iomanip
-E:/GithubCode/c_plus_plus_test/test_laptop/iomanip
-string
-E:/GithubCode/c_plus_plus_test/test_laptop/string
+E:/GithubCode/c_plus_plus_test/test_laptop/11_5.cpp
+fstream
+E:/GithubCode/c_plus_plus_test/test_laptop/fstream
 
