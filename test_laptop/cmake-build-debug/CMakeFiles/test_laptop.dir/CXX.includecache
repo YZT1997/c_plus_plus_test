@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/10_21.cpp
+E:/GithubCode/c_plus_plus_test/test_laptop/11_1.cpp
 iostream
 E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-algorithm
-E:/GithubCode/c_plus_plus_test/test_laptop/algorithm
-functional
-E:/GithubCode/c_plus_plus_test/test_laptop/functional
-iterator
-E:/GithubCode/c_plus_plus_test/test_laptop/iterator
-vector
-E:/GithubCode/c_plus_plus_test/test_laptop/vector
+iomanip
+E:/GithubCode/c_plus_plus_test/test_laptop/iomanip
+string
+E:/GithubCode/c_plus_plus_test/test_laptop/string
 
