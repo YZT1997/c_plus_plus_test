@@ -2,11 +2,13 @@
 // Created by yang zhengtao on 2020/11/29.
 //
 #include "iostream"
+#include "string"
 using namespace std;
 
 int main(){
-    char ch;
-    while ((ch=cin.get()) != EOF)
-        cout.put(ch);
+    string line;
+    cout<<"Type a line ended by 't' "<<endl;
+    getline(cin, line, 't');
+    cout<<line<<endl;
     return 0;
 }
