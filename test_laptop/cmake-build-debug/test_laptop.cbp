@@ -84,7 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/11_7.cpp">
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/BTree.h">
+			<Option target="test_laptop"/>
+		</Unit>
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/BinaryTree.h">
+			<Option target="test_laptop"/>
+		</Unit>
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/MinHeap.h">
+			<Option target="test_laptop"/>
+		</Unit>
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/test.cpp">
 			<Option target="test_laptop"/>
 		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/CMakeLists.txt">

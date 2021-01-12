@@ -2,34 +2,41 @@
 // Created by yang zhengtao on 2020/10/23.
 //
 #include "iostream"
-#include "map"
-#include "Stack.h"
-#include "Queue.h"
+#include "BinaryTree.h"
 using namespace std;
 
+template <class T>
+void swap2(T &x, T &y){
+    T temp = x;
+    x = y;
+    y = temp;
+}
 
+int fib(int n){
+    if (n < 2)
+        return n;
+
+    int value = fib(n - 1) + fib( n - 2);
+    return value;
+}
+
+int fib2(int n){
+    int f = 0, g = 1;
+    while (0 < n--){
+        g = g + f;
+        f = g - f;
+    }
+
+    return g;
+}
+
+int *sum1(int &x1, int &x2){
+    x1 = x1 + x2;
+}
 int main(){
-//    Stack<int> stack;
-//    Queue<int> queue;
-//    for (int i = 0; i < 10; ++i) {
-//        stack.push(i+1);
-//        queue.insert(i+1);
-//
-//    }
-//    cout<<"Length is "<<queue.getLength()<<endl;
-//    while (!stack.isEmpty()){
-//        cout<<stack.pop()<<" ";
-//    }
-//    cout<<endl;
-//    while (!queue.isEmpty()){
-//        cout<<queue.remove()<<" ";
-//    }
-//    stack.clear();
-//    queue.clear();
-    int i = 2;
-    int *ptr = &i;
-    int j = i + 3;
-    int *ptrJ = &j;
-    cout<<*ptr<<" "<<*(ptrJ-4);
+    int x1 = 10, x2 = 20, sum;
+    int *ptr = nullptr;
+    ptr = sum1(x1, x2);
+    cout<<sum1<<endl;
     return 0;
 }
