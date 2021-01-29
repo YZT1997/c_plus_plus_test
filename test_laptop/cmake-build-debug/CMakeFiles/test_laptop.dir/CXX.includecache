@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/BTree.h
-
 ../include/BinaryTree.h
-BTree.h
-../include/BTree.h
+LinkQueue.h
+../include/LinkQueue.h
+
+../include/LinkQueue.h
 
 E:/GithubCode/c_plus_plus_test/test_laptop/test.cpp
 iostream
