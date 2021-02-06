@@ -4,11 +4,15 @@
 
 #ifndef TEST_LAPTOP_BINARYTREE_H
 #define TEST_LAPTOP_BINARYTREE_H
-//#include "BTree.h"
+#include "BTree.h"
 #include "LinkQueue.h"
+
+template<class T> class BinaryTree;
+template<class T> void printTree(const BinaryTree<T> &t, T flag);
+
 template <class T>
 class BinaryTree{
-    friend void printTree(const BinaryTree &t, T flag);
+    friend void printTree<T>(const BinaryTree &t, T flag);
 private:
     struct Node{
         Node *left, *right;
@@ -118,7 +122,7 @@ void BinaryTree<T>::levelOrder() const {
     Node *tmp;
 
     std::cout<<"\n leverOrder";
-    que.insert(root);
+    que.enQueue(root);
 
     while (!que.isEmpty()){
         tmp = que.deQueue();
@@ -184,5 +188,21 @@ void BinaryTree<T>::creatTree(T flag) {
     std::cout<<"\n completed! \n";
 }
 
+
+template<class T>
+void printTree(const BinaryTree<T> &t, T flag){
+    LinkQueue<T> q;
+    q.enQueue(t.root->data);
+    std::cout<<std::endl;
+    while (!q.isEmpty()){
+        char p, l, r;
+        p = q.deQueue();
+        l = t.lChild(p, flag);
+        r = t.rChild(p, flag);
+        std::cout<<p<<" "<<l<<" "<<r<<std::endl;
+        if (l != flag) q.enQueue(l);
+        if (r != flag) q.enQueue(r);
+    }
+}
 
 #endif //TEST_LAPTOP_BINARYTREE_H

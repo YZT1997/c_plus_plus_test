@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(. ./include)
 
-add_executable(test_laptop test.cpp include/LinkQueue.h)
+add_executable(test_laptop 2_1.cpp include/BinaryTree.h)

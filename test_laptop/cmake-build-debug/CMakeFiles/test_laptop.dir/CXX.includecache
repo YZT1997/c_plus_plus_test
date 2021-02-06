@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/BinaryTree.h
-LinkQueue.h
-../include/LinkQueue.h
-
-../include/LinkQueue.h
-
-E:/GithubCode/c_plus_plus_test/test_laptop/test.cpp
+E:/GithubCode/c_plus_plus_test/test_laptop/2_1.cpp
 iostream
 E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-BinaryTree.h
-E:/GithubCode/c_plus_plus_test/test_laptop/BinaryTree.h
+stdio.h
+E:/GithubCode/c_plus_plus_test/test_laptop/stdio.h
+vector
+E:/GithubCode/c_plus_plus_test/test_laptop/vector
+stack
+E:/GithubCode/c_plus_plus_test/test_laptop/stack
 

@@ -3,13 +3,16 @@
 //
 #include "iostream"
 #include "BinaryTree.h"
+
 using namespace std;
 
 int main(){
     BinaryTree<int> Tree;
-    Tree.creatTree(10);
+    Tree.creatTree(0);
     Tree.preOrder();
-    cout<<Tree.lChild(10, 10);
-
+    Tree.midOrder();
+    Tree.postOrder();
+    Tree.levelOrder();
+    printTree(Tree,0);
     return 0;
 }
