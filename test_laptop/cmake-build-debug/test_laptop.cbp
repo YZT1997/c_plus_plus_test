@@ -84,10 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/2_1.cpp">
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/3_2.cpp">
 			<Option target="test_laptop"/>
 		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/BinaryTree.h">
+			<Option target="test_laptop"/>
+		</Unit>
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/HfTree.h">
 			<Option target="test_laptop"/>
 		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/CMakeLists.txt">

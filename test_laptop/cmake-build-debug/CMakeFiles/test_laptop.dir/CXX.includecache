@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/2_1.cpp
+E:/GithubCode/c_plus_plus_test/test_laptop/3_2.cpp
 iostream
-E:/GithubCode/c_plus_plus_test/test_laptop/iostream
-stdio.h
-E:/GithubCode/c_plus_plus_test/test_laptop/stdio.h
+-
+string
+-
 vector
-E:/GithubCode/c_plus_plus_test/test_laptop/vector
-stack
-E:/GithubCode/c_plus_plus_test/test_laptop/stack
+-
+algorithm
+-
+unordered_set
+-
 

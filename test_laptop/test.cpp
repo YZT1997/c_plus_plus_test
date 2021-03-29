@@ -3,16 +3,20 @@
 //
 #include "iostream"
 #include "BinaryTree.h"
-
+#include "HfTree.h"
 using namespace std;
 
 int main(){
-    BinaryTree<int> Tree;
-    Tree.creatTree(0);
-    Tree.preOrder();
-    Tree.midOrder();
-    Tree.postOrder();
-    Tree.levelOrder();
-    printTree(Tree,0);
+    char ch[] = {"abcdef"};
+    int w[] = {10, 12, 5, 2, 4};
+
+    HfTree<char> tree(ch, w, sizeof(w)/ 2);
+    HfTree<char>::hfNode result[(sizeof(w) / 2)];
+
+    tree.getCode(result);
+
+    for (int i = 0; i < sizeof(w); ++i) {
+        cout<<result[i].data<<" "<<result[i].code<<endl;
+    }
     return 0;
 }

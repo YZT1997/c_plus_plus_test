@@ -142,32 +142,32 @@ test_laptop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/build
 .PHONY : test_laptop/fast
 
-2_1.obj: 2_1.cpp.obj
+3_2.obj: 3_2.cpp.obj
 
-.PHONY : 2_1.obj
+.PHONY : 3_2.obj
 
 # target to build an object file
-2_1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/2_1.cpp.obj
-.PHONY : 2_1.cpp.obj
+3_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/3_2.cpp.obj
+.PHONY : 3_2.cpp.obj
 
-2_1.i: 2_1.cpp.i
+3_2.i: 3_2.cpp.i
 
-.PHONY : 2_1.i
+.PHONY : 3_2.i
 
 # target to preprocess a source file
-2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/2_1.cpp.i
-.PHONY : 2_1.cpp.i
+3_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/3_2.cpp.i
+.PHONY : 3_2.cpp.i
 
-2_1.s: 2_1.cpp.s
+3_2.s: 3_2.cpp.s
 
-.PHONY : 2_1.s
+.PHONY : 3_2.s
 
 # target to generate assembly for a file
-2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/2_1.cpp.s
-.PHONY : 2_1.cpp.s
+3_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/3_2.cpp.s
+.PHONY : 3_2.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_laptop
-	@echo ... 2_1.obj
-	@echo ... 2_1.i
-	@echo ... 2_1.s
+	@echo ... 3_2.obj
+	@echo ... 3_2.i
+	@echo ... 3_2.s
 .PHONY : help
 
 

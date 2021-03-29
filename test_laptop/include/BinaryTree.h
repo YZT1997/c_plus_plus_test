@@ -118,7 +118,7 @@ void BinaryTree<T>::midOrder() const {
 
 template<class T>
 void BinaryTree<T>::levelOrder() const {
-    LinkQueue<Node*> que;
+    LinkQue/ue<Node*> que;
     Node *tmp;
 
     std::cout<<"\n leverOrder";
