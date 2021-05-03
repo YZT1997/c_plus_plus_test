@@ -1,65 +1,59 @@
-//
-// Created by yang zhengtao on 2021/3/2.
-//
 #include <iostream>
 #include <string>
-#include <vector>
-#include <algorithm>
-#include <unordered_set>
+#include <unordered_map>
+
 using namespace std;
+int getMaxStep(string& strBig, string& strSmall, int ind);
+int main(){
+    string strBig, strSmall;
+    string strInd;
+    int ind = 0;
 
-bool isDigit(char c){
-    if(48 <= c && c <= 57) {
-        std::cout<<"true"<<endl;
-        return true;
-    }
-    std::cout<<"false";
-    return false;
+    getline(cin, strBig);
+    getline(cin, strSmall);
+    getline(cin,strInd);
+
+    ind = std::stol(strInd);
+
+    int res = getMaxStep(strBig, strSmall, ind);
+    cout<<res;
+    return 0;
+
 }
+int getMaxStep(string& strBig, string& strSmall, int ind){
+    unordered_map<char, int> need, window;
+    for(char c:strSmall) need[c]++;
 
-int findCountOne(string& strs){
-    int count = 0;
-    for(int i=0; i < strs.size(); ++i){
-        if(strs[i] == '1') count++;
-    }
-    return count;
-}
-int findMaxForm(vector<string>& strs, int m, int n) {
-    if(strs.size() == 0) return 0;
-    vector<vector<int>> dp(m+1, vector<int>(n+1, 0));
+    int left = ind, right = ind;
+    int valid= 0;
 
-    // dp[i][j] 代表i个0与j个1时，元素个数的最大值
-    for(int k=0; k < strs.size(); ++k){
-        int countOnes = findCountOne(strs[k]);
-        int countZeros = strs[k].size() - countOnes;
-        cout<<"k="<<k<<" "<<countOnes<<" "<<countZeros<<endl;
-
-        // dp[i][j] = max(dp[i][j], 1+dp[i-countZeros][j-countZeros])
-        for(int i=m; i>=countZeros; i--){
-            for(int j=n; j >= countOnes; j--){
-                dp[i][j] = max(dp[i][j], 1 + dp[i-countZeros][j-countOnes]); // 1 + dp[i-zeros][j-zeros] 为选中当前元素
+    int step = 0;
+    while (right < strBig.size()){
+        char c = strBig[right];
+        right++;
+        // update
+        if (need.count(c)){
+            cout<<need.count(c)<<endl;
+            window[c]++;
+            if(window[c] == need[c]){
+                valid++;
+            }
+        }
+        // left window
+        while (right - left >= strSmall.size()){
+            // judge
+            if(valid == need.size()){
+                break;
+            }
+            char d = strBig[left];
+            left++;
+            if(need.count(d)){
+                if(window[d] == need[d])
+                    valid--;
+                window[d]--;
             }
         }
     }
-
-    return dp[m][n];
-}
-
-int main(){
-    vector<int> a;
-    int i = 0;
-    while (i < 10){
-        i++;
-        a.push_back(i);
-    }
-//    vector<int> dp(10, 0);
-//
-//    unordered_set<int> dict(a.begin(), a.end());
-//    if(dict.count(11)) cout<<"true"<<endl;
-//    else cout<<"false"<<endl;
-    char c = 'n';
-    isDigit(c);
-
-    return 0;
-
+    step = right - 1;
+    return step;
 }

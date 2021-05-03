@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(. ./include)
 
-add_executable(test_laptop include/BinaryTree.h include/HfTree.h 3_2.cpp)
+add_executable(test_laptop include/QuickSort.h include/MergeSort.h 5_3.cpp)

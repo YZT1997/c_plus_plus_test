@@ -1,3 +1,3 @@
 "D:\Clion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\test_laptop.dir/objects.a
 D:\mingw64\bin\ar.exe cr CMakeFiles\test_laptop.dir/objects.a @CMakeFiles\test_laptop.dir\objects1.rsp
-D:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\test_laptop.dir/objects.a -Wl,--no-whole-archive  -o test_laptop.exe -Wl,--out-implib,libtest_laptop.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_laptop.dir\linklibs.rsp
+D:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\test_laptop.dir/objects.a -Wl,--no-whole-archive -o test_laptop.exe -Wl,--out-implib,libtest_laptop.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_laptop.dir\linklibs.rsp
