@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/5_30.cpp
-iostream
--
-stack
--
-unordered_map
--
-vector
+E:/GithubCode/c_plus_plus_test/test_laptop/7_7_2.cpp
+bits/stdc++.h
 -
 
