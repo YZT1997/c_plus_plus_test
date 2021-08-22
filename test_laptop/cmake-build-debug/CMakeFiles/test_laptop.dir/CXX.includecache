@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/GithubCode/c_plus_plus_test/test_laptop/7_7_2.cpp
-bits/stdc++.h
+../include/PrototypeWork.h
+stdio.h
+-
+
+E:/GithubCode/c_plus_plus_test/test_laptop/8_22.cpp
+PrototypeWork.h
+E:/GithubCode/c_plus_plus_test/test_laptop/PrototypeWork.h
+queue
+-
+set
 -
 

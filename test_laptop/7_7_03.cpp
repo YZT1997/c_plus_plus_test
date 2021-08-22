@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
 
 const int dx[8] = {-1, 1, 2, 2, 1, -1, -2, -2};
 const int dy[8] = {2, 2, 1,-1, -2, -2, -1, 1};
@@ -24,7 +23,6 @@ int main(){
                 end_x = i;
                 end_y = j;
             }
-
         }
     }
     queue<pair<int, int>> que;

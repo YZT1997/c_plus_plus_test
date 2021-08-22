@@ -6,7 +6,7 @@
 using namespace std;
 
 bool my_compare(const pair<int, int>& a, const pair<int, int>& b){
-    return a.second > b.second;
+    return a.second > b.second || a.second == b.second && a.first < b.first;
 }
 
 int main(){
@@ -26,17 +26,20 @@ int main(){
 
     //
     sort(vec.begin(), vec.end(), my_compare);
+
+    int start_time = -1;
     for(int i = 0; i < n; ++i){
         int temp_order = vec[i].first - 1;
 
-        while (list_order[temp_order] >= 0){
+        while (temp_order > start_time){
             if(list_order[temp_order] == 0){
                 list_order[temp_order] = 1;
                 res += vec[i].second;
-                break;;
+                break;
             }
             temp_order--;
         }
+        if(temp_order == start_time ) start_time = vec[i].first - 1;
     }
     cout<<res<<endl;
     return 0;

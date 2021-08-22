@@ -84,16 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/7_7_2.cpp">
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/8_22.cpp">
 			<Option target="test_laptop"/>
 		</Unit>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/HeapSort.h">
-			<Option target="test_laptop"/>
-		</Unit>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/MergeSort.h">
-			<Option target="test_laptop"/>
-		</Unit>
-		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/QuickSort.h">
+		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/include/PrototypeWork.h">
 			<Option target="test_laptop"/>
 		</Unit>
 		<Unit filename="E:/GithubCode/c_plus_plus_test/test_laptop/CMakeLists.txt">

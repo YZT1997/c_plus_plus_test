@@ -48,9 +48,6 @@ int main(){
         if(!vis[i]) res = -1;break;
     }
     cout<<res<<endl;
-
-
-
     cout<<"yes"<<endl;
 
     return 0;
