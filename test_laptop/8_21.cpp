@@ -35,21 +35,18 @@ int minSailCost(vector<vector<int> >& input) {
     int m = input.size();
     int n = input[0].size();
     vector<vector<int>> dp(m, vector<int>(n , 0));
-    dp[0][0] = 0;
-    for(int i = 1; i < m; ++i){
-        if(input[i][0] == 0) break;
-        dp[i][0] = dp[i - 1][0] + input[i][0];
-    }
-    for(int j = 1; j < n; ++j){
-        if(input[0][j] == 0) break;
-        dp[0][j] = dp[0][j - 1] + input[0][j];
-    }
-    for(int i = 1; i < m; ++i){
-        for(int j = 1; j < n; ++j){
-            if(input[i][j] == 0) dp[i][j] = 0;
+
+    for(int i = 0; i < m; ++i){
+        for(int j = 0; j < n; ++j){
+            if(i == 0 && j == 0) continue;
+            if(input[i][j] == 2) dp[i][j] = -1;
+            if(i == 0){
+                if(dp[i][j - 1] == 0) dp[i][j] = dp[i][j - 1];
+                else
+            }
             else{
-                if(dp[i - 1][j] == 0 && dp[i][j - 1] == 0){
-                    dp[i][j] = 0;
+                if(dp[i - 1][j] == -1 && dp[i][j - 1] == -1){
+                    dp[i][j] = -1;
                 }
                 else if(dp[i - 1][j] != 0 && dp[i][j - 1] != 0){
                     dp[i][j] = input[i][j] + min(dp[i - 1][j], dp[i][j - 1]);

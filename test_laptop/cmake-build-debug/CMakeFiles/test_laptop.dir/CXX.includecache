@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-../include/PrototypeWork.h
-stdio.h
+E:/GithubCode/c_plus_plus_test/test_laptop/leetcode_424.cpp
+iostream
 -
-
-E:/GithubCode/c_plus_plus_test/test_laptop/8_22.cpp
-PrototypeWork.h
-E:/GithubCode/c_plus_plus_test/test_laptop/PrototypeWork.h
-queue
+vector
 -
 set
 -

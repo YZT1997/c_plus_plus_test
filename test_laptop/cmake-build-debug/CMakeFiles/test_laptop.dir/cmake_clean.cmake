@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_laptop.dir/8_22.cpp.obj"
+  "CMakeFiles/test_laptop.dir/leetcode_424.cpp.obj"
   "libtest_laptop.dll.a"
   "test_laptop.exe"
   "test_laptop.exe.manifest"

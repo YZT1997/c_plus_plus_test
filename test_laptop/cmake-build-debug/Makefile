@@ -128,29 +128,29 @@ test_laptop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/build
 .PHONY : test_laptop/fast
 
-8_22.obj: 8_22.cpp.obj
-.PHONY : 8_22.obj
+leetcode_424.obj: leetcode_424.cpp.obj
+.PHONY : leetcode_424.obj
 
 # target to build an object file
-8_22.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_22.cpp.obj
-.PHONY : 8_22.cpp.obj
+leetcode_424.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/leetcode_424.cpp.obj
+.PHONY : leetcode_424.cpp.obj
 
-8_22.i: 8_22.cpp.i
-.PHONY : 8_22.i
+leetcode_424.i: leetcode_424.cpp.i
+.PHONY : leetcode_424.i
 
 # target to preprocess a source file
-8_22.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_22.cpp.i
-.PHONY : 8_22.cpp.i
+leetcode_424.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/leetcode_424.cpp.i
+.PHONY : leetcode_424.cpp.i
 
-8_22.s: 8_22.cpp.s
-.PHONY : 8_22.s
+leetcode_424.s: leetcode_424.cpp.s
+.PHONY : leetcode_424.s
 
 # target to generate assembly for a file
-8_22.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/8_22.cpp.s
-.PHONY : 8_22.cpp.s
+leetcode_424.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_laptop.dir\build.make CMakeFiles/test_laptop.dir/leetcode_424.cpp.s
+.PHONY : leetcode_424.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_laptop
-	@echo ... 8_22.obj
-	@echo ... 8_22.i
-	@echo ... 8_22.s
+	@echo ... leetcode_424.obj
+	@echo ... leetcode_424.i
+	@echo ... leetcode_424.s
 .PHONY : help
 
 
